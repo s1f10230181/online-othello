@@ -1,0 +1,87 @@
+curl 'http://localhost:31577/api/tasks/f63e2c54-70a7-4b58-9fe5-16162d99575e' \
+  -X 'DELETE' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: ja,en-US;q=0.9,en;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _ga=GA1.1.1685472505.1687443921; _gid=GA1.1.942413221.1687443921; session=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiR3Jhc3MgTW91bnRhaW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9naXRodWIuY29tL3MxZjEwMjMwMTgxLnBuZyIsImVtYWlsIjoiZ3Jhc3MubW91bnRhaW4uODcyQGV4YW1wbGUuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF1dGhfdGltZSI6MTY4NzQ0NTcyMSwidXNlcl9pZCI6InR5REFlMDVOV1ZvQTJ5ekM3MzdxQmYxOXcyQTAiLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImdyYXNzLm1vdW50YWluLjg3MkBleGFtcGxlLmNvbSJdLCJnaXRodWIuY29tIjpbIjQzNDcyOTM5MTUxODY5MzkyNjI3Njg3OTY4MTg4Mjg0OTg2MTUyNTIiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnaXRodWIuY29tIn0sImlhdCI6MTY4NzQ1Mzg4MiwiZXhwIjoxNjg3ODg1ODgyLCJhdWQiOiJlbXVsYXRvciIsImlzcyI6Imh0dHBzOi8vc2Vzc2lvbi5maXJlYmFzZS5nb29nbGUuY29tL2VtdWxhdG9yIiwic3ViIjoidHlEQWUwNU5XVm9BMnl6QzczN3FCZjE5dzJBMCJ9.' \
+  -H 'Origin: http://localhost:3000' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:3000/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed
+
+  curl 'http://localhost:31577/api/board' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: ja,en-US;q=0.9,en;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _ga=GA1.1.1685472505.1687443921; _gid=GA1.1.942413221.1687443921; _gat_gtag_UA_SOMENUMBER_X=1; session=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiR3Jhc3MgTW91bnRhaW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9naXRodWIuY29tL3MxZjEwMjMwMTgxLnBuZyIsImVtYWlsIjoiZ3Jhc3MubW91bnRhaW4uODcyQGV4YW1wbGUuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF1dGhfdGltZSI6MTY4NzQ0NTcyMSwidXNlcl9pZCI6InR5REFlMDVOV1ZvQTJ5ekM3MzdxQmYxOXcyQTAiLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImdyYXNzLm1vdW50YWluLjg3MkBleGFtcGxlLmNvbSJdLCJnaXRodWIuY29tIjpbIjQzNDcyOTM5MTUxODY5MzkyNjI3Njg3OTY4MTg4Mjg0OTg2MTUyNTIiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnaXRodWIuY29tIn0sImlhdCI6MTY4NzQ2MDk3MywiZXhwIjoxNjg3ODkyOTczLCJhdWQiOiJlbXVsYXRvciIsImlzcyI6Imh0dHBzOi8vc2Vzc2lvbi5maXJlYmFzZS5nb29nbGUuY29tL2VtdWxhdG9yIiwic3ViIjoidHlEQWUwNU5XVm9BMnl6QzczN3FCZjE5dzJBMCJ9.' \
+  -H 'Origin: http://localhost:3000' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:3000/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed
+
+  curl 'http://localhost:31577/api/board' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: ja,en-US;q=0.9,en;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _ga=GA1.1.1685472505.1687443921; _gid=GA1.1.942413221.1687443921; _gat_gtag_UA_SOMENUMBER_X=1; session=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiR3Jhc3MgTW91bnRhaW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9naXRodWIuY29tL3MxZjEwMjMwMTgxLnBuZyIsImVtYWlsIjoiZ3Jhc3MubW91bnRhaW4uODcyQGV4YW1wbGUuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF1dGhfdGltZSI6MTY4NzQ0NTcyMSwidXNlcl9pZCI6InR5REFlMDVOV1ZvQTJ5ekM3MzdxQmYxOXcyQTAiLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImdyYXNzLm1vdW50YWluLjg3MkBleGFtcGxlLmNvbSJdLCJnaXRodWIuY29tIjpbIjQzNDcyOTM5MTUxODY5MzkyNjI3Njg3OTY4MTg4Mjg0OTg2MTUyNTIiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnaXRodWIuY29tIn0sImlhdCI6MTY4NzQ2NDg3OSwiZXhwIjoxNjg3ODk2ODc5LCJhdWQiOiJlbXVsYXRvciIsImlzcyI6Imh0dHBzOi8vc2Vzc2lvbi5maXJlYmFzZS5nb29nbGUuY29tL2VtdWxhdG9yIiwic3ViIjoidHlEQWUwNU5XVm9BMnl6QzczN3FCZjE5dzJBMCJ9.' \
+  -H 'Origin: http://localhost:3000' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:3000/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed
+    curl 'http://localhost:31577/api/board' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: ja,en-US;q=0.9,en;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _ga=GA1.1.1685472505.1687443921; _gid=GA1.1.942413221.1687443921; _gat_gtag_UA_SOMENUMBER_X=1; session=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiR3Jhc3MgTW91bnRhaW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9naXRodWIuY29tL3MxZjEwMjMwMTgxLnBuZyIsImVtYWlsIjoiZ3Jhc3MubW91bnRhaW4uODcyQGV4YW1wbGUuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF1dGhfdGltZSI6MTY4NzQ0NTcyMSwidXNlcl9pZCI6InR5REFlMDVOV1ZvQTJ5ekM3MzdxQmYxOXcyQTAiLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImdyYXNzLm1vdW50YWluLjg3MkBleGFtcGxlLmNvbSJdLCJnaXRodWIuY29tIjpbIjQzNDcyOTM5MTUxODY5MzkyNjI3Njg3OTY4MTg4Mjg0OTg2MTUyNTIiXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnaXRodWIuY29tIn0sImlhdCI6MTY4NzQ2NDg3OSwiZXhwIjoxNjg3ODk2ODc5LCJhdWQiOiJlbXVsYXRvciIsImlzcyI6Imh0dHBzOi8vc2Vzc2lvbi5maXJlYmFzZS5nb29nbGUuY29tL2VtdWxhdG9yIiwic3ViIjoidHlEQWUwNU5XVm9BMnl6QzczN3FCZjE5dzJBMCJ9.' \
+  -H 'Origin: http://localhost:3000' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: http://localhost:3000/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed curl -X POST -H "Content-Type: application/json" -d '{"x":0,"y":0}'
+
+  curl 'http://localhost:31577/api/board' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: ja,en;q=0.9,en-GB;q=0.8,en-US;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _ga=GA1.1.45744261.1687465829; _gid=GA1.1.1228976764.1687465829; _gat_gtag_UA_SOMENUMBER_X=1; session=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJuYW1lIjoiTW91bnRhaW4gR3Jhc3MiLCJlbWFpbCI6Im1vdW50YWluLmdyYXNzLjMzOUBleGFtcGxlLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdXRoX3RpbWUiOjE2ODc0NjU4NTgsInVzZXJfaWQiOiJGek95WkpFY2QzSGV2aFNwcGVnd2xCVHpCbzlLIiwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJtb3VudGFpbi5ncmFzcy4zMzlAZXhhbXBsZS5jb20iXSwiZ2l0aHViLmNvbSI6WyI0OTE3NjMyNzg0OTkwMjAzNzc3NTM4Nzk0ODM1NjQzMjE1OTM3OTg5Il19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ2l0aHViLmNvbSJ9LCJpYXQiOjE2ODc0NjU5NDAsImV4cCI6MTY4Nzg5Nzk0MCwiYXVkIjoiZW11bGF0b3IiLCJpc3MiOiJodHRwczovL3Nlc3Npb24uZmlyZWJhc2UuZ29vZ2xlLmNvbS9lbXVsYXRvciIsInN1YiI6IkZ6T3laSkVjZDNIZXZoU3BwZWd3bEJUekJvOUsifQ.' \
+  -H 'Origin: http://localhost:3000' \
+  -H 'Referer: http://localhost:3000/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Microsoft Edge";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --compressed curl -X POST -H "Content-Type: application/json" -d '{"x":2,"y":2}'
